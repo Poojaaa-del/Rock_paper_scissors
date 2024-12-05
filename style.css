@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+* {
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.choice {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+
+img {
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 6rem;
+    gap: 7rem;
+}
+
+#user-score, #comp-score {
+    font-size: 4rem;
+}
+
+.msg-container {
+    margin-top: 2rem;
+}
+
+#result {
+    font-size: 2rem;
+    background-color: gray;
+    display: inline;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.button-class {
+    flex: 1;
+    position: relative;
+}
+
+#mode-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+}
